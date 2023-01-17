@@ -1,0 +1,17 @@
+{
+  "name": "zephyr-scale-github-actions-integration",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "task": "dotenv -- tsx demo/main.ts"
+  },
+  "devDependencies": {
+    "@aspida/fetch": "^1.11.0",
+    "dotenv-cli": "^6.0.0",
+    "isomorphic-unfetch": "^4.0.2",
+    "openapi2aspida": "^0.21.0",
+    "tsx": "^3.12.2"
+  },
+  "packageManager": "yarn@3.3.1"
+}
